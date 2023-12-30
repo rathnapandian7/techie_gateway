@@ -1,0 +1,9 @@
+server:
+  port: 1004
+  servlet:
+    context-path: /customer-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/

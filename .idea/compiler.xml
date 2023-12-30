@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discoveryservice" />
+        <module name="config-service" />
+        <module name="authservice" />
+        <module name="customer-service" />
+        <module name="gatewayservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
+      <module name="customer_service" target="1.8" />
+      <module name="customerservice" target="1.8" />
+      <module name="Cutomer" target="1.8" />
+      <module name="gatewayservice1" target="1.8" />
+      <module name="motorauthorityservice1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Cutomer" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
+      <module name="authservice" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="customer_service" options="-parameters" />
+      <module name="customerservice" options="-parameters" />
+      <module name="discoveryservice" options="-parameters" />
+      <module name="gatewayservice" options="-parameters" />
+      <module name="gatewayservice1" options="-parameters" />
+      <module name="motorauthorityservice1" options="-parameters" />
+    </option>
+  </component>
+</project>
